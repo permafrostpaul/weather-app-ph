@@ -32,11 +32,11 @@ You need to have Node.js (which includes npm) and Yarn installed on your machine
 Installation
 Clone the repository:
 
-git clone [https://github.com/your-username/WeatherPH.git](https://github.com/your-username/WeatherPH.git)
+git clone [https://github.com/permafrostpaul/weather-app-ph](https://github.com/permafrostpaul/weather-app-ph)
 
 Navigate to the project directory:
 
-cd WeatherPH
+cd weather-app-ph
 
 Install dependencies using Yarn:
 
