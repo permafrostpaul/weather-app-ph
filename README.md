@@ -1,6 +1,11 @@
 Weather PH - A Philippine Weather App
 Weather PH is a clean, modern, and fully responsive web application that provides real-time weather information for cities across the Philippines. It was built with a modern frontend stack to showcase API integration, state management, and component-based architecture in React.
 
+🚀 Live Demo
+This project is deployed and live on Netlify. You can view it here:
+
+https://weather-app-ph.netlify.app/
+
 ✨ Features
 Real-Time Weather Data: Fetches and displays current weather conditions, including temperature, humidity, wind speed, and more.
 
@@ -23,6 +28,8 @@ API: OpenWeatherMap API
 
 Icons: Lucide React
 
+Deployment: Netlify
+
 🛠️ Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -32,7 +39,7 @@ You need to have Node.js (which includes npm) and Yarn installed on your machine
 Installation
 Clone the repository:
 
-git clone [https://github.com/permafrostpaul/weather-app-ph](https://github.com/permafrostpaul/weather-app-ph)
+git clone [https://github.com/permafrostpaul/weather-app-ph.git](https://github.com/permafrostpaul/weather-app-ph.git)
 
 Navigate to the project directory:
 
