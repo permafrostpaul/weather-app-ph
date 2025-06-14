@@ -1,12 +1,61 @@
-# React + Vite
+Weather PH - A Philippine Weather App
+Weather PH is a clean, modern, and fully responsive web application that provides real-time weather information for cities across the Philippines. It was built with a modern frontend stack to showcase API integration, state management, and component-based architecture in React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Real-Time Weather Data: Fetches and displays current weather conditions, including temperature, humidity, wind speed, and more.
 
-Currently, two official plugins are available:
+5-Day Forecast: Provides a detailed 5-day weather forecast to help users plan ahead.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+City Search: Users can search for any major city in the Philippines to get instant weather updates.
 
-## Expanding the ESLint configuration
+Responsive Design: A mobile-first design that looks and works beautifully on all devices, from phones to desktops.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modern UI/UX: A sleek, "glassmorphism" inspired interface built with Tailwind CSS.
+
+Organized Codebase: Built with a clean, component-based structure and a custom hook for state management, making the code easy to read and maintain.
+
+🚀 Tech Stack
+Frontend: React with Vite
+
+Styling: Tailwind CSS
+
+API: OpenWeatherMap API
+
+Icons: Lucide React
+
+🛠️ Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+You need to have Node.js (which includes npm) and Yarn installed on your machine.
+
+Installation
+Clone the repository:
+
+git clone [https://github.com/your-username/WeatherPH.git](https://github.com/your-username/WeatherPH.git)
+
+Navigate to the project directory:
+
+cd WeatherPH
+
+Install dependencies using Yarn:
+
+yarn install
+
+Configuration
+To fetch weather data, you need a free API key from OpenWeatherMap.
+
+Create a .env file: In the main root folder of the project, create a new file named .env.
+
+Add your API key: Inside the .env file, add the following line, replacing your_key_here with your actual OpenWeatherMap API key. The VITE_ prefix is essential.
+
+VITE_OPENWEATHER_API_KEY=your_key_here
+
+The .gitignore file is already set up to ignore .env files, keeping your key secure.
+
+Running the Development Server
+Once the dependencies are installed and your API key is configured, you can start the local development server:
+
+yarn dev
+
+Open http://localhost:5173 (or the address shown in your terminal)
